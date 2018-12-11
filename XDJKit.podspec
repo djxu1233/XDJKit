@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XDJKit"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "常用的分类."
 
   # This description is used to generate tags and improve search results.
