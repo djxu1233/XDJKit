@@ -27,5 +27,9 @@ FOUNDATION_EXPORT const unsigned char XDJKitVersionString[];
 #import <XDJKit/UIView+DJCornerShadow.h>
 #import <XDJKit/UIColor+DJCategory.h>
 #import <XDJKit/UIImage+DJCategory.h>
+#import <XDJKit/NSDate+DJCategory.h>
+#import <XDJKit/NNSString+Date.h>
+#import <XDJKit/UIScrollView+MJ.h>
+
 
 ///#endif /* XDJKit_h */
