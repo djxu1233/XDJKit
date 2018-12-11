@@ -6,18 +6,26 @@
 //  Copyright © 2018年 MAC. All rights reserved.
 //
 
-#ifndef XDJKit_h
-#define XDJKit_h
+//#ifndef XDJKit_h
+//#define XDJKit_h
+#import <Foundation/Foundation.h>
 
-#import "NSString+DJCategory.h"
-#import "NSString+DJDevice.h"
-#import "NSString+DJValid.h"
-#import "UIButton+DJOptions.h"
-#import "UIButton+DJCategory.h"
-#import "UIView+DJRect.h"
-#import "UIView+DJCategory.h"
-#import "UIView+DJCornerShadow.h"
-#import "UIColor+DJCategory.h"
-#import "UIImage+DJCategory.h"
+//! Project version number for Toast.
+FOUNDATION_EXPORT double XDJKitVersionNumber;
 
-#endif /* XDJKit_h */
+//! Project version string for Toast.
+FOUNDATION_EXPORT const unsigned char XDJKitVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <Toast/PublicHeader.h>
+#import <XDJKit/NSString+DJCategory.h>
+#import <XDJKit/NSString+DJDevice.h>
+#import <XDJKit/NSString+DJValid.h>
+#import <XDJKit/UIButton+DJOptions.h>
+#import <XDJKit/UIButton+DJCategory.h>
+#import <XDJKit/UIView+DJRect.h>
+#import <XDJKit/UIView+DJCategory.h>
+#import <XDJKit/UIView+DJCornerShadow.h>
+#import <XDJKit/UIColor+DJCategory.h>
+#import <XDJKit/UIImage+DJCategory.h>
+
+///#endif /* XDJKit_h */
