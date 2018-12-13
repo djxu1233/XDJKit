@@ -20,14 +20,19 @@ FOUNDATION_EXPORT const unsigned char XDJKitVersionString[];
 #import <XDJKit/NSString+DJCategory.h>
 #import <XDJKit/NSString+DJDevice.h>
 #import <XDJKit/NSString+DJValid.h>
+#import <XDJKit/NSString+Attribute.h>
+#import <XDJKit/NSDate+DJCategory.h>
+#import <XDJKit/NSString+Date.h>
+
 #import <XDJKit/UIButton+DJOptions.h>
 #import <XDJKit/UIView+DJRect.h>
 #import <XDJKit/UIView+DJCategory.h>
 #import <XDJKit/UIView+DJCornerShadow.h>
 #import <XDJKit/UIColor+DJCategory.h>
 #import <XDJKit/UIImage+DJCategory.h>
-#import <XDJKit/NSDate+DJCategory.h>
-#import <XDJKit/NSString+Date.h>
+#import <XDJKit/UIFont+Scale.h>
+#import <XDJKit/UIControl+Target.h>
+#import <XDJKit/UILabel+AttributedText.h>
 #import <XDJKit/UIScrollView+MJ.h>
 
 
