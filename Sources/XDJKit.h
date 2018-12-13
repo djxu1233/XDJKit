@@ -21,7 +21,6 @@ FOUNDATION_EXPORT const unsigned char XDJKitVersionString[];
 #import <XDJKit/NSString+DJDevice.h>
 #import <XDJKit/NSString+DJValid.h>
 #import <XDJKit/UIButton+DJOptions.h>
-#import <XDJKit/UIButton+DJCategory.h>
 #import <XDJKit/UIView+DJRect.h>
 #import <XDJKit/UIView+DJCategory.h>
 #import <XDJKit/UIView+DJCornerShadow.h>

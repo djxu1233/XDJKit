@@ -193,41 +193,7 @@
     return (NSArray *)linesArray;
 }
 
-/** 设置NSMutableAttributedString分段颜色字体*/
-+ (NSMutableAttributedString *)setAttribu:(NSString *)string
-                                    range:(NSRange)range
-                                     font:(UIFont *)font
-                                    color:(UIColor *)color
-{
-    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:string];
-    ///设置分段颜色
-    [attributedString addAttribute:NSForegroundColorAttributeName value:color range:range];
-    
-    if (font != nil) {
-        ///设置分段字体
-        [attributedString addAttribute:NSFontAttributeName value:font range:range];
-    }
-    
-    return attributedString;
-}
 
-+ (NSMutableAttributedString *)setAttribuForegroundAndUnderline:(NSString *)string
-                                                          range:(NSRange)range
-                                                           font:(nonnull UIFont *)font
-                                                          color:(nonnull UIColor *)color
-{
-    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:string];
-    ///设置分段颜色
-    [attributedString addAttribute:NSForegroundColorAttributeName value:color range:range];
-    ///设置分段字体
-    [attributedString addAttribute:NSFontAttributeName value:font range:range];
-    ///设置分段下划线类型（单行下划线）
-    [attributedString addAttribute:NSUnderlineStyleAttributeName value:[NSNumber numberWithInteger:NSUnderlineStyleSingle] range:range];
-    ///设置分段下划线的颜色
-    [attributedString addAttribute:NSUnderlineColorAttributeName value:color range:range];
-    
-    return attributedString;
-}
 
 
 @end

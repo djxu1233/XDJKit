@@ -86,36 +86,8 @@ NS_ASSUME_NONNULL_BEGIN
                                      font:(UIFont *)font
                             labelWidth:(CGFloat)labelWidth;
 
-/**
- * @brief 设置NSMutableAttributedString分段颜色字体
- *
- * @param string 需要设置的字符串
- * @param range 范围
- * @param font 字体
- * @param color 颜色
- *
- * @return NSMutableAttributedString
- */
-/** */
-+ (NSMutableAttributedString *)setAttribu:(NSString *)string
-                                    range:(NSRange)range
-                                     font:(UIFont *)font
-                                    color:(UIColor *)color;
 
-/**
- * @brief 设置NSMutableAttributedString分段颜色字体及下划线
- *
- * @param string 需要设置的字符串
- * @param range 范围
- * @param font 字体
- * @param color 颜色
- *
- * @return NSMutableAttributedString
- */
-+ (NSMutableAttributedString *)setAttribuForegroundAndUnderline:(NSString *)string
-                                                          range:(NSRange)range
-                                                           font:(UIFont *)font
-                                                          color:(UIColor *)color;
+
 
 @end
 
