@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XDJKit"
-  s.version      = "0.0.8"
+  s.version      = "0.1.0"
   s.summary      = "常用的分类."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Sources", "Sources/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = 'Sources/**/*.h'
+  s.public_header_files = "Sources/XDJKit.h"
   #"Pod/XDJKit/**/**/*.h"
 
 
