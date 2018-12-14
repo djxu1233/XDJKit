@@ -17,7 +17,6 @@ FOUNDATION_EXPORT double XDJKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char XDJKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Toast/PublicHeader.h>
-#import <XDJKit/NSString+DJCategory.h>
 #import <XDJKit/NSString+DJDevice.h>
 #import <XDJKit/NSString+DJValid.h>
 #import <XDJKit/NSString+Attribute.h>
