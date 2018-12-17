@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XDJKit"
-  s.version      = "0.0.8"
+  s.version      = "0.1.0"
   s.summary      = "常用的分类."
 
   # This description is used to generate tags and improve search results.
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "Foundation", "UIKit"
+  s.frameworks = "Foundation", "UIKit", "CoreText"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
